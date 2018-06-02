@@ -1,0 +1,55 @@
+/* pages/roulette/roulette.wxss */
+
+.container-out {
+  width: 750rpx;
+  height: 750rpx;
+  background-color: darkviolet;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+}
+
+.container-in {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   /* position:relative;     */
+  width: 620rpx;
+  height: 620rpx;
+  margin:70rpx;
+  /* background-color: aqua; */
+}
+
+.content-out {
+   /* position: relative;  */
+    position: absolute;  
+  width: 100rpx;
+  height: 100rpx;
+  background-color: red;
+}
+
+.award-image {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 10rpx;
+}
+
+.start-btn {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: red;
+  margin: 43%;
+  font-size: 30rpx;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}

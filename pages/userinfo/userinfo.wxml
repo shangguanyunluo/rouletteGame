@@ -1,0 +1,5 @@
+<!--pages/userinfo/userinfo.wxml-->
+<text>pages/userinfo/userinfo.wxml</text>
+<button type='primary' open-type='openSetting' bindtap='opensetting'>打开授权页面</button> 
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view>
